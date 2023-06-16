@@ -1,8 +1,6 @@
-# ReScript Project Template
+# ReScript Advent of Code 2022
 
-The only official ReScript starter template. Clone this repo to get started.
-
-This is the branch where you can use your output code in NodeJS. To use your output in the browser, do `git checkout -b browser origin/browser` to switch to the `browser` branch.
+Solutions to the 2022 advent of code test
 
 ## Installation
 
@@ -18,6 +16,8 @@ npm install
 
 ## Run
 
+Each day compiles to a `DayX.js` javascript file that can be run with node:
+
 ```sh
-node src/Demo.bs.js
+node src/Day01.js
 ```

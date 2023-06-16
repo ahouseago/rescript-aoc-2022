@@ -1,11 +1,11 @@
 {
-  "name": "rescript-project-template",
-  "version": "0.0.1",
+  "name": "rescript-aoc-2022",
+  "version": "0.0.4",
   "keywords": [
     "rescript"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "ahouseago",
   "scripts": {
     "res:build": "rescript",
     "res:clean": "rescript clean",
