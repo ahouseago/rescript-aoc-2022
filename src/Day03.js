@@ -2,8 +2,8 @@
 'use strict';
 
 var Fs = require("fs");
-var Core__List = require("@rescript/core/src/Core__List.bs.js");
-var Core__Array = require("@rescript/core/src/Core__Array.bs.js");
+var Core__List = require("@rescript/core/src/Core__List.js");
+var Core__Array = require("@rescript/core/src/Core__Array.js");
 
 var input = Fs.readFileSync("./src/day03.txt", "utf8");
 

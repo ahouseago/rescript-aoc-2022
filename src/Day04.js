@@ -4,9 +4,9 @@
 var Fs = require("fs");
 var Curry = require("rescript/lib/js/curry.js");
 var Caml_obj = require("rescript/lib/js/caml_obj.js");
-var Core__Int = require("@rescript/core/src/Core__Int.bs.js");
-var Core__Array = require("@rescript/core/src/Core__Array.bs.js");
-var Core__Option = require("@rescript/core/src/Core__Option.bs.js");
+var Core__Int = require("@rescript/core/src/Core__Int.js");
+var Core__Array = require("@rescript/core/src/Core__Array.js");
+var Core__Option = require("@rescript/core/src/Core__Option.js");
 
 var input = Fs.readFileSync("./src/day04.txt", "utf8");
 
